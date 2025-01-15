@@ -1,0 +1,32 @@
+
+
+@import url("Header.css");
+@import url("Hero.css");
+@import url("Category.css");
+@import url("Category_Items.css");
+@import url("Explore_Service.css");
+@import url("Why_SupplyRun.css");
+@import url("Offered_Services.css");
+@import url("Reviews.css");
+@import url("Footer.css");
+
+
+
+:root {
+  --playfair-display: "Plus Jakarta Sans", sans-serif;
+  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+  /*"Plus Jakarta Sans", sans-serif; */
+  --primary-color: #175438;
+  --secondary-color: White;
+  --color-black: Black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+	background-color:var(--primary-color);
+	}

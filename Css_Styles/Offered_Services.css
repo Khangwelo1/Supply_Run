@@ -1,0 +1,98 @@
+.offered__services{
+	background-color: var(--primary-color);
+	display: flex;
+	/*height: 100vh;*/
+	overflow: hidden;
+	flex-direction: column;
+	font-family: var(--playfair-display);
+}
+.offered__services__headings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 50px 0 50px 0;
+
+}
+.offered__services__headings h2{
+	font-size: 30px;
+	font-weight: 600;
+	color: var(--secondary-color);
+}
+.offered__services__headings p{
+	font-size: 20px;
+	font-weight: 600;
+	color: green;
+}
+.offered__services__offered {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: var(--secondary-color);
+	justify-content: center;
+	align-items: center;
+}
+.offered__services__offered__container{
+	display: flex;
+	margin: 40px;
+	flex-wrap: wrap;
+	gap: 40px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.offered__services__offered__selection{
+	height: 50vh;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	padding : 20px;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--primary-color);
+}
+.offered__services__offered__selection img{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	border: 1px solid var(--primary-color);
+}
+.offered__services__offered__selection p{
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--color-black);
+}
+.offered__services__offered__selection_6{
+	height: 50vh;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	padding : 20px;
+	gap: 20px;
+	justify-content: center;
+	border: none;
+}
+.offered__services__offered__selection_6 h4{
+	font-size: 20px;
+	font-weight: 600;
+	color: green;
+}
+.offered__services__offered__selection_6 h1{
+	font-size: 30px;
+	font-weight: 600;
+	color: var(--color-black);
+}
+.offered__services__offered__selection_6 button{
+	border-radius: 10px;
+	height: 50px;
+	width: 200px;
+	outline: none;
+	border: 1px solid var(--primary-color);
+	background: var(--primary-color);
+	cursor: pointer;
+	color: var(--secondary-color);
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 23px;
+}

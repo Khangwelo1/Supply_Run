@@ -1,0 +1,38 @@
+footer{
+	background-color: var(--primary-color);
+	display: flex;
+	/*height: 100vh;*/
+	overflow: hidden;
+	flex-direction: row;
+}
+.footer_contact{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0 20px 100px;
+	gap: 20px;
+	color: var(--secondary-color);
+	font-family: var(--playfair-display);
+}
+.footer_contact h1{
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--secondary-color);
+}
+.footer__menu {
+  	flex: 1.236;
+  	display: flex;
+	flex-direction: column;
+  	justify-content: flex-end;
+  	list-style: none;
+  
+}
+.footer__menu li a{
+ 	 font-weight: 600;
+ 	 color: var(--secondary-color);
+ 	 font-size: 15px;
+ 	 text-transform: uppercase;
+	line-height: 20px;
+ 	text-decoration: none;
+  	cursor: pointer;
+}
