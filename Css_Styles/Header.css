@@ -9,14 +9,6 @@
 	position: relative;
 	padding: 40px;
 }
-.header__logo h4{
-	padding-left: 30px;
-	font-weight: 30px;
-	font-size: 24px;
-	text-transform: uppercase;
-	color: var(--secondary-color);
-	opacity: 0.8;
-}
 .header__menu {
  	 padding: 20px;
   	flex: 1.236;
@@ -25,7 +17,6 @@
   	justify-content: flex-end;
   	gap: 50px;
   	list-style: none;
-  
 }
 
 .header__menu li a{
@@ -36,4 +27,31 @@
 	line-height: 20px;
  	text-decoration: none;
   	cursor: pointer;
+}
+.icons{
+	display: flex;
+	width:20%;
+	align-items: center;
+	justify-content: center;
+	
+	list-style: none;
+}
+.icons li{
+	background-color: var(--primary-color-color);
+	height: 8vh;
+	width: 8vh;
+	border:none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icons li a{
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.icons li a img{
+	color: white;
 }
